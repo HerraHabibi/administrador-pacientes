@@ -19,7 +19,7 @@ function Formulario() {
             type='text'
             id='nombreMascota'
             placeholder='Nombre de la mascota'
-            className='bg-neutral-800 border-2 w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
+            className='bg-neutral-800 border-2 border-neutral-600 focus:border-neutral-500 transition-all w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
           />
         </div>
 
@@ -34,7 +34,7 @@ function Formulario() {
             type='text'
             id='nombrePropietario'
             placeholder='Nombre del propietario'
-            className='bg-neutral-800 border-2 w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
+            className='bg-neutral-800 border-2 border-neutral-600 focus:border-neutral-500 transition-all w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
           />
         </div>
 
@@ -49,7 +49,7 @@ function Formulario() {
             type='email'
             id='correoElectronico'
             placeholder='Correo electrónico'
-            className='bg-neutral-800 border-2 w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
+            className='bg-neutral-800 border-2 border-neutral-600 focus:border-neutral-500 transition-all w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
           />
         </div>
 
@@ -63,7 +63,7 @@ function Formulario() {
           <input
             type='date'
             id='fechaAlta'
-            className='bg-neutral-800 border-2 w-full p-2 mt-2 rounded-md outline-none'
+            className='bg-neutral-800 border-2 border-neutral-600 focus:border-neutral-500 transition-all w-full p-2 mt-2 rounded-md outline-none'
           />
         </div>
 
@@ -77,14 +77,14 @@ function Formulario() {
           <textarea
             id='sintomas'
             placeholder='Describe los síntomas'
-            className='bg-neutral-800 border-2 w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
+            className='bg-neutral-800 border-2 border-neutral-600 focus:border-neutral-500 transition-all w-full p-2 mt-2 placeholder-neutral-500 rounded-md outline-none'
           />
         </div>
 
         <input
           type='submit'
           value='Agregar paciente'
-          className='bg-sky-500 w-full p-3 mt-2 rounded-md outline-none uppercase font-bold hover:bg-sky-600 cursor-pointer transition-all'
+          className='bg-sky-600 w-full p-3 mt-2 rounded-md outline-none uppercase font-bold hover:bg-sky-700 cursor-pointer transition-all'
         />
       </form>
     </div>
