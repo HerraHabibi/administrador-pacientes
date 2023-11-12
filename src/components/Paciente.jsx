@@ -1,6 +1,6 @@
 function Paciente() {
   return (
-    <div className='m-3 bg-neutral-800 shadow-md px-5 py-10 rounded-lg'>
+    <div className='mx-5 mb-10 bg-neutral-800 shadow-md px-5 py-10 rounded-lg'>
       <p className='font-bold mb-3 text-blue-200 uppercase'>
         Nombre mascota: {''}
         <span className='text-neutral-200 font-normal normal-case'>Hook</span>
@@ -8,7 +8,9 @@ function Paciente() {
 
       <p className='font-bold mb-3 text-blue-200 uppercase'>
         Nombre propietario: {''}
-        <span className='text-neutral-200 font-normal normal-case'>HerraHabibi</span>
+        <span className='text-neutral-200 font-normal normal-case'>
+          HerraHabibi
+        </span>
       </p>
 
       <p className='font-bold mb-3 text-blue-200 uppercase'>
@@ -20,7 +22,9 @@ function Paciente() {
 
       <p className='font-bold mb-3 text-blue-200 uppercase'>
         Fecha de Alta: {''}
-        <span className='text-neutral-200 font-normal normal-case'>07/01/2002</span>
+        <span className='text-neutral-200 font-normal normal-case'>
+          07/01/2002
+        </span>
       </p>
 
       <p className='font-bold text-blue-200 uppercase'>
